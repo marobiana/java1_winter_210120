@@ -1,53 +1,28 @@
 package variable_ex;
 
 public class Ex01 {
-
 	public static void main(String[] args) {
-		System.out.print("Hello world\n"); 
-		System.out.println("안녕 자바의 세계");
-		System.out.println("hello world");
+		int noodleCup = 850;
+		System.out.println("육개장 가격:" + noodleCup);
 		
-		// 한 줄 주석
+		// 3개 가격 계산
+		int sum = noodleCup * 3;
+		System.out.println("육개장 3개의 가격:" + sum);
 		
-		/*   
-		 * 여러줄
-		 * 주석
-		 * 쓸 수 있어요
-		 * */
+		// 육개장 가격: 850, 3개의 가격: 2550
+		System.out.println("육개장 가격: " + noodleCup + ", 3개의 가격: " + sum);
 		
-		// 정수형(Integer) 변수
-		int number1 = 3; // 값을 할당한다.(assign)
-		System.out.println(number1);
+		// 10,000원으로 육개장 3개를 산 후 거스름돈 구하기
+		int money = 10000;
+		int change = money - sum;  // 10000 - 육개장 3개 가격
+		System.out.println("거스름돈:" + change);
 		
-		number1 = 5; // 재사용 할 때는 자료형을 쓰지 않는다.
-		System.out.println(number1);
+		// 5,000원으로 육개장 몇 개를 살 수 있고, 거스름돈은 얼마나 남는가?
+		money = 5000;
+		int buyNoodleCup = money / noodleCup;
+		System.out.println("살 수 있는 개수:" + buyNoodleCup);
 		
-		int number2 = 100;
-		int sum = number1 + number2;
-		System.out.println(sum);
-		System.out.println(number1 + number2);
-		
-		// 실수(소수) float 변수  : 오차가 있을 수 있으므로 권장 안함
-		float f = 1.579f;
-		System.out.println(f);
-		
-		double d = 3.879979;
-		System.out.println(d);
-		
-		// 문자(Character) 변수 : 문자 한개. 작은 따옴표로 감싼다.
-		char c = 'z';
-		System.out.println(c);
-		
-		// boolean : 참(true) 또는 거짓(false)
-		boolean isReal = true;
-		boolean isFalse = false;
-		System.out.println(isReal);
-		System.out.println(isFalse);
-		
-		// 문자열와 변수 이어붙이기
-		System.out.println("isReal 변수에 들어있는 값은 " + isReal + "이다.");
-		// 1 + 1은 2 이다.
-		System.out.println("1 + 1은 " + (1 + 1) + "이다.");
+		change = money % noodleCup;
+		System.out.println("거스름돈:" + change);
 	}
-	
 }
