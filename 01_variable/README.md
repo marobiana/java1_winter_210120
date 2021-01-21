@@ -60,13 +60,13 @@ JVM은 JAVA와 OS(운영체제) 사이에서 중개자 역할을 수행하여 �
 |코드 정렬|선택된 영역에서 Ctrl + i|
 
 ## 예제
-### [예제 1](variable_ex/Ex01.java) : 출력(printf 함수), 변수, 자료형 종류
+### [예제 1](variable_ex/Ex01.java) : 출력, 변수, 자료형 종류
 ### [예제 2](variable_ex/Ex02.java) : 변수, 산술 연산자
 ### [예제 3](variable_ex/Ex03.java) : 형변환(casting)
-### [예제 4](variable_ex/Ex04.java) : 입력(scanf 함수)
+### [예제 4](variable_ex/Ex04.java) : 입력
 
 ## 문제
-### [문제 1](variable_quiz/quiz01/README.md) : 변수, 자료형, 출력하기(printf), format
+### [문제 1](variable_quiz/quiz01/README.md) : 변수, 자료형, 출력하기, format
 ### [문제 2](variable_quiz/quiz02/README.md) : 변수, 산술 연산자
 ### [문제 3](variable_quiz/quiz03/README.md) : 실수 연산
-### [문제 4](variable_quiz/quiz04/README.md) : 입력 함수(scanf_s) 
+### [문제 4](variable_quiz/quiz04/README.md) : 입력 함수
