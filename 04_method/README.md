@@ -34,5 +34,5 @@ void 메소드명() {
 ### [예제 2](method_ex/Ex02.java) : 메소드 만들기
 
 ## 문제
-### [문제 1](method_quiz/quiz01/README.md) : 메소드 사용하기
-### [문제 2](method_quiz/quiz02/README.md) : 메소드 만들기(기본 연산)
+### [문제 1](method_quiz/quiz01/README.md) : 메소드 만들기
+### [문제 2](method_quiz/quiz02/README.md) : 메소드 만들기
