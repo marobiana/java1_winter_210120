@@ -42,6 +42,20 @@ public class Quiz03 {
 			System.out.print(numbers[i] + " ");
 		}
 		
+		
+		// 3. 빈도수
+		int[] numbers = {5, 3, 2, 1, 2, 4, 3, 3, 2, 1};
+		int[] freq = new int[6]; // 1~5까지의 숫자를 숫자와 같은 index에 저장하기 위해 6칸으로 만듦
+		
+		for (int i = 0; i < numbers.length; i++) {
+			freq[numbers[i]] += 1;
+		}
+		
+		for (int i = 1; i < freq.length; i++) {
+			// 1 : 2개
+			System.out.println(i + ":" + freq[i] + "개");
+		}
+		
 	}
 
 }
