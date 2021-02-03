@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Quiz02 {
 
 	public static void main(String[] args) {
-    // 메소드를 만드는 이유: 
+    		// 메소드를 만드는 이유: 
 		// (1) 중복되는 코드를 한곳에 만들고 재활용한다
 		// (2) main에 있는 코드 흐름을 다 분석하지 않아도, 메소드명을 잘 만들면 무슨 맥락인지 빨리 파악이 가능해진다.
 
-    // 1. 합 구하기
+   		// 1. 합 구하기
 		Scanner scan = new Scanner(System.in);
 		System.out.print("수를 입력하세요:");
 		int num = scan.nextInt();
